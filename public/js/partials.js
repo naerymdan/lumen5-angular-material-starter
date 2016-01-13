@@ -11,11 +11,11 @@ module.run(['$templateCache', function($templateCache) {
     '<br/>\n' +
     '<br/>\n' +
     '<div class="Footer-text">\n' +
-    '	An open source project by <a href="https://github.com/jadjoubran" class="Footer-link" target="_blank">Jad Joubran</a>.\n' +
+    '	An open source project by <a href="https://github.com/jadjoubran" class="Footer-link" target="_blank">Jad Joubran</a> and <a href="https://github.com/naerymdan" class="Footer-link" target="_blank">Vincent Labreche</a>.\n' +
     '	Design by <a href="https://www.linkedin.com/in/nicolesaidy" class="Footer-link" target="_blank">Nicole Saidy</a>\n' +
     '</div>\n' +
     '<div class="Footer-text">\n' +
-    '	&copy; 2016 Laravel Angular Material Starter\n' +
+    '	&copy; 2016 Lumen Angular Material Starter\n' +
     '</div>\n' +
     '</md-content>\n' +
     '');
@@ -38,7 +38,7 @@ module.run(['$templateCache', function($templateCache) {
     '				<div layout="row" layout-align="center stretch" hide-xs>\n' +
     '					<a class="DemoHeader-link md-subhead" href="https://laravel-angular.readme.io" target="_blank">Docs</a>\n' +
     '					<a class="DemoHeader-link md-subhead" href="">Screencasts</a>\n' +
-    '					<a class="DemoHeader-link md-subhead" href="https://github.com/jadjoubran/laravel5-angular-material-starter" target="_blank">Github</a>\n' +
+    '					<a class="DemoHeader-link md-subhead" href="https://github.com/naerymdan/lumen5-angular-material-starter" target="_blank">Github</a>\n' +
     '				</div>\n' +
     '			</div>\n' +
     '		</div>\n' +
@@ -59,7 +59,7 @@ module.run(['$templateCache', function($templateCache) {
     '<div class="Page-Container Landing" ng-controller="LandingController as vm" ng-class="{\'iOS-hack\': vm.iOS}">\n' +
     '	<div layout="column" class="Landing-cover" layout-align="center center">\n' +
     '		<div class="md-headline Landing-subtitle">Build your next powerful web app</div>\n' +
-    '		<h1 class="md-display-3 Landing-heading"><strong>laravel angular</strong> <span class="Landing-headingLight">material starter</span></h1>\n' +
+    '		<h1 class="md-display-3 Landing-heading"><strong>lumen angular</strong> <span class="Landing-headingLight">material starter</span></h1>\n' +
     '		<md-button class="md-raised md-large Landing-getStarted" href="https://laravel-angular.readme.io/docs/install" target="_blank">Get Started</md-button>\n' +
     '	</div>\n' +
     '\n' +
@@ -67,7 +67,7 @@ module.run(['$templateCache', function($templateCache) {
     '		<div class="Landing-ampersand" hide show-gt-sm>&amp;</div>\n' +
     '		<div layout="column" layout-gt-sm="row">\n' +
     '			<div flex="50" class="Landing-laravel" layout-align="center center">\n' +
-    '				<h2 class="md-display-2 Landing-laravelAngular-title">Laravel</h2>\n' +
+    '				<h2 class="md-display-2 Landing-laravelAngular-title">Lumen</h2>\n' +
     '				<div class="md-title Landing-laravelAngular-subtitle">{{vm.laravel_description}}</div>\n' +
     '				<br/>\n' +
     '				<div class="DemoCode">\n' +
@@ -109,7 +109,7 @@ module.run(['$templateCache', function($templateCache) {
     '	</div>\n' +
     '\n' +
     '	<div class="Landing-features" layout-align="center center">\n' +
-    '		<h1 class="md-display-2 Landing-featuresMainTitle">Laravel Angular Material Starter</h1>\n' +
+    '		<h1 class="md-display-2 Landing-featuresMainTitle">Lumen Angular Material Starter</h1>\n' +
     '		<div class="md-title Landing-featuresMainDescription">\n' +
     '			The right features to get you started\n' +
     '		</div>\n' +
