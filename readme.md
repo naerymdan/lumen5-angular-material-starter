@@ -1,7 +1,7 @@
 ## Lumen 5.2 Angular Material Starter
 
-[![Latest Unstable Version](https://poser.pugx.org/jadjoubran/laravel5-angular-material-starter/v/unstable)](https://packagist.org/packages/naerymdan/lumen5-angular-material-starter)
-[![License](https://poser.pugx.org/jadjoubran/laravel5-angular-material-starter/license)](https://packagist.org/packages/naerymdan/lumen5-angular-material-starter)
+[![Latest Unstable Version](https://poser.pugx.org/jadjoubran/laravel5-angular-material-starter/v/unstable)](https://packagist.org/packages/naerymdan/lumen5-angular-material-starter#dev-master)
+[![License](https://poser.pugx.org/jadjoubran/laravel5-angular-material-starter/license)](https://packagist.org/packages/naerymdan/lumen5-angular-material-starter#dev-master)
 
 
 ## Demo
