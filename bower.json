@@ -1,7 +1,8 @@
 {
-  "name": "laravel5-angular-material-starter",
+  "name": "lumen-angular-material-starter",
   "authors": [
-    "Jad Joubran <jad@jadjoubran.com>"
+    "Jad Joubran <jad@jadjoubran.com>",
+    "Vincent Labreche <vincent.dev@gmail.com>"
   ],
   "ignore": [
     "**/.*",

@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.0.0
+- Switched from Laravel to Lumen
+
 ### 3.0.6
 - npm dependencies cleanup [#133](https://github.com/jadjoubran/laravel5-angular-material-starter/issues/133)
 - updated to laravel-elixir 4

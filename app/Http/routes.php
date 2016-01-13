@@ -1,18 +1,21 @@
 <?php
 
-Route::get('/', 'AngularController@serveApp');
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It is a breeze. Simply tell Lumen the URIs it should respond to
+| and give it the Closure to call when that URI is requested.
+|
+*/
 
-Route::get('/unsupported-browser', 'AngularController@unsupported');
-
-$api->group([], function ($api) {
-
-    $api->post('users/login', 'LoginController@login');
-
-});
+$app->post('/users/login', 'LoginController@login');
 
 //protected routes with JWT (must be logged in to access any of these routes)
-$api->group(['middleware' => 'api.auth'], function ($api) {
+$app->group(['middleware' => 'auth'], function () use ($app) {
 
-    $api->get('sample/protected', 'LoginController@protectedData');
+    $app->get('sample/protected', 'LoginController@protectedData');
 
 });

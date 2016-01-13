@@ -1,4 +1,4 @@
-## Laravel 5.1 Angular Material Starter
+## Lumen 5.2 Angular Material Starter
 
 [![Latest Stable Version](https://poser.pugx.org/jadjoubran/laravel5-angular-material-starter/v/stable)](https://packagist.org/packages/jadjoubran/laravel5-angular-material-starter)
 [![Latest Unstable Version](https://poser.pugx.org/jadjoubran/laravel5-angular-material-starter/v/unstable)](https://packagist.org/packages/jadjoubran/laravel5-angular-material-starter)

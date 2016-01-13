@@ -19,13 +19,11 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
     /**
      * Creates the application.
      *
-     * @return \Illuminate\Foundation\Application
+     * @return \Laravel\Lumen\Application
      */
     public function createApplication()
     {
         $app = require __DIR__.'/../bootstrap/app.php';
-
-        $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
         //login the authUser using JWT and store the token
         $this->setAuthUserToken();

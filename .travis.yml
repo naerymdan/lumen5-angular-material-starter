@@ -19,6 +19,6 @@ before_script:
   - export DB_PASSWORD=
 
 install:
-  - travis_retry composer create-project jadjoubran/laravel5-angular-material-starter=dev-master --no-interaction --prefer-source
+  - travis_retry composer create-project Naerymdan/lumen5-angular-material-starter=dev-master --no-interaction --prefer-source
 
-script: cd laravel5-angular-material-starter && php artisan migrate --force && vendor/bin/phpunit
+script: cd lumen5-angular-material-starter && php artisan migrate --force && vendor/bin/phpunit
