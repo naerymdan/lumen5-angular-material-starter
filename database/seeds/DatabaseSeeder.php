@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Database\Eloquent\Model;
 
 class DatabaseSeeder extends Seeder
@@ -14,13 +15,13 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        // $this->call(UserTableSeeder::class);
-        //JWT demo
-        App\User::create([
-            'name' => 'Jad Joubran',
-            'email' => 'joubran.jad@gmail.com',
-            'password' => bcrypt('laravel_angular'),
-            ]);
+        $user_valdor_id = DB::table('users')->insertGetId(
+            array(
+                'name' => 'Jad Joubran',
+                'email' => 'joubran.jad@gmail.com',
+                'password' => Hash::make('laravel_angular')
+            )
+        );
 
         Model::reguard();
     }
