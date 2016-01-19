@@ -9,9 +9,9 @@
         "laravel/lumen-framework": "5.2.2",
         "vlucas/phpdotenv": "~2.2",
         "tymon/jwt-auth": "dev-develop",
-        "dingo/api": "1.0.x@dev"
+        "dingo/api": "1.0.x@dev",
         "barryvdh/laravel-cors": "0.7.x",
-        "laravelangular/generators": "dev-develop"
+        "laravelangular/generators": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
