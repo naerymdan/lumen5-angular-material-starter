@@ -3,12 +3,18 @@
 namespace App\Providers;
 
 use App\User;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
+use Tymon\JWTAuth\JWTAuth;
 
 class AuthServiceProvider extends ServiceProvider
 {
+    protected $auth;
+
+    public function __construct(JWTAuth $auth)
+    {
+        $this->auth = $auth;
+    }
+
     /**
      * Register any application services.
      *
@@ -31,9 +37,9 @@ class AuthServiceProvider extends ServiceProvider
         // should return either a User instance or null. You're free to obtain
         // the User instance via an API token or any other method necessary.
 
-        Auth::viaRequest('api', function ($request) {
+        $this->app['auth']->viaRequest('api', function ($request) {
             try {
-                if (! $user = JWTAuth::parseToken()->authenticate()) {
+                if (! $user = $this->auth->parseToken()->authenticate()) {
                     return null;
                 }
             } catch (Exception $e) {

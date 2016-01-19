@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0dbc319cf9afbf8886b7a8eff6eb8951",
-    "content-hash": "7f6656aef7997e8afc3ac550f51a4e4f",
+    "hash": "160b45dc6da924f563df2140018edd16",
+    "content-hash": "f0bde402d43958ca026290b7c2ab39b5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1577,16 +1577,16 @@
         },
         {
             "name": "laravel/lumen-framework",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/lumen-framework.git",
-                "reference": "91e07dd69930ed45515d2776a18e05f911b986f3"
+                "reference": "e0f84bb83a7dea5063508e800c7cf4755cd54824"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/91e07dd69930ed45515d2776a18e05f911b986f3",
-                "reference": "91e07dd69930ed45515d2776a18e05f911b986f3",
+                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/e0f84bb83a7dea5063508e800c7cf4755cd54824",
+                "reference": "e0f84bb83a7dea5063508e800c7cf4755cd54824",
                 "shasum": ""
             },
             "require": {
@@ -1656,7 +1656,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2016-01-08 13:32:58"
+            "time": "2016-01-14 19:52:28"
         },
         {
             "name": "laravelangular/generators",
