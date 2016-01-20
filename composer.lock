@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "160b45dc6da924f563df2140018edd16",
+    "hash": "0d9e44ab0c75637cf601b5f4e0e34485",
     "content-hash": "f0bde402d43958ca026290b7c2ab39b5",
     "packages": [
         {
@@ -2989,12 +2989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tymondesigns/jwt-auth.git",
-                "reference": "971674277a0dc47121102ffe9cb39f4cb1cf3725"
+                "reference": "e2870e45a70f71c971867d746451f702a3c1256b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/971674277a0dc47121102ffe9cb39f4cb1cf3725",
-                "reference": "971674277a0dc47121102ffe9cb39f4cb1cf3725",
+                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/e2870e45a70f71c971867d746451f702a3c1256b",
+                "reference": "e2870e45a70f71c971867d746451f702a3c1256b",
                 "shasum": ""
             },
             "require": {
@@ -3045,7 +3045,7 @@
                 "jwt",
                 "laravel"
             ],
-            "time": "2016-01-19 22:18:42"
+            "time": "2016-01-20 18:39:12"
         },
         {
             "name": "vlucas/phpdotenv",

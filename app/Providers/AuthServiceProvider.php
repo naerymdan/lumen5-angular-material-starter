@@ -2,15 +2,25 @@
 
 namespace App\Providers;
 
-use App\User;
+use Exception;
+use Illuminate\Contracts\Auth\Factory as Auth;
 use Illuminate\Support\ServiceProvider;
-use Tymon\JWTAuth\JWTAuth;
 
 class AuthServiceProvider extends ServiceProvider
 {
+    /**
+     * The authentication guard factory instance.
+     *
+     * @var \Illuminate\Contracts\Auth\Factory
+     */
     protected $auth;
 
-    public function __construct(JWTAuth $auth)
+    /**
+     * Create a new middleware instance.
+     *
+     * @param  \Illuminate\Contracts\Auth\Factory $auth
+     */
+    public function __construct(Auth $auth)
     {
         $this->auth = $auth;
     }
@@ -39,7 +49,7 @@ class AuthServiceProvider extends ServiceProvider
 
         $this->app['auth']->viaRequest('api', function ($request) {
             try {
-                if (! $user = $this->auth->parseToken()->authenticate()) {
+                if (! $user = $this->auth->user()) {
                     return null;
                 }
             } catch (Exception $e) {
