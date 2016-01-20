@@ -40,7 +40,7 @@ class User extends Model implements
      * @return mixed
      */
     public function getJWTIdentifier() {
-        return $this->id;
+        return $this->getKey();
     }
 
     /**
