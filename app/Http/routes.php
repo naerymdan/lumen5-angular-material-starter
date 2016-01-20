@@ -14,8 +14,8 @@
 $app->post('/users/login', 'LoginController@login');
 
 //protected routes with JWT (must be logged in to access any of these routes)
-$app->group(['middleware' => 'auth'], function () use ($app) {
+$app->group(['namespace' => 'App\Http\Controllers', 'middleware' => 'auth'], function () use ($app) {
 
-    $app->get('sample/protected', 'LoginController@protectedData');
+    $app->get('/sample/protected', 'LoginController@protectedData');
 
 });
