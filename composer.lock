@@ -1664,12 +1664,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jadjoubran/laravel-ng-artisan-generators.git",
-                "reference": "a997a0f5f643aafb007d2a92ab7c65112d7a669d"
+                "reference": "14dfb43158a968d05f0c8c9b0460d9f09a51bc43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jadjoubran/laravel-ng-artisan-generators/zipball/a997a0f5f643aafb007d2a92ab7c65112d7a669d",
-                "reference": "a997a0f5f643aafb007d2a92ab7c65112d7a669d",
+                "url": "https://api.github.com/repos/jadjoubran/laravel-ng-artisan-generators/zipball/14dfb43158a968d05f0c8c9b0460d9f09a51bc43",
+                "reference": "14dfb43158a968d05f0c8c9b0460d9f09a51bc43",
                 "shasum": ""
             },
             "require": {
@@ -1696,7 +1696,7 @@
                 }
             ],
             "description": "Angular generators for Artisan",
-            "time": "2016-01-19 09:27:44"
+            "time": "2016-01-21 21:29:45"
         },
         {
             "name": "league/fractal",
@@ -2989,12 +2989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tymondesigns/jwt-auth.git",
-                "reference": "e2870e45a70f71c971867d746451f702a3c1256b"
+                "reference": "56f98aae78336e63bad3f2fa80279726a732f983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/e2870e45a70f71c971867d746451f702a3c1256b",
-                "reference": "e2870e45a70f71c971867d746451f702a3c1256b",
+                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/56f98aae78336e63bad3f2fa80279726a732f983",
+                "reference": "56f98aae78336e63bad3f2fa80279726a732f983",
                 "shasum": ""
             },
             "require": {
@@ -3045,7 +3045,7 @@
                 "jwt",
                 "laravel"
             ],
-            "time": "2016-01-20 18:39:12"
+            "time": "2016-01-21 09:49:34"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3106,12 +3106,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-ide-helper.git",
-                "reference": "da05897cb73a7862bcde0bfd539c9b3ab4798267"
+                "reference": "ed972acf19a51f2273e5d59f6058c75f4f9dc38c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/da05897cb73a7862bcde0bfd539c9b3ab4798267",
-                "reference": "da05897cb73a7862bcde0bfd539c9b3ab4798267",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/ed972acf19a51f2273e5d59f6058c75f4f9dc38c",
+                "reference": "ed972acf19a51f2273e5d59f6058c75f4f9dc38c",
                 "shasum": ""
             },
             "require": {
@@ -3161,7 +3161,7 @@
                 "phpstorm",
                 "sublime"
             ],
-            "time": "2016-01-11 12:00:09"
+            "time": "2016-01-21 14:55:37"
         },
         {
             "name": "doctrine/instantiator",
