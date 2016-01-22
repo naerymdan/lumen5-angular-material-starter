@@ -3106,12 +3106,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-ide-helper.git",
-                "reference": "ed972acf19a51f2273e5d59f6058c75f4f9dc38c"
+                "reference": "aa8f772a46c35ecdcb7119f38772ac2ec952a941"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/ed972acf19a51f2273e5d59f6058c75f4f9dc38c",
-                "reference": "ed972acf19a51f2273e5d59f6058c75f4f9dc38c",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/aa8f772a46c35ecdcb7119f38772ac2ec952a941",
+                "reference": "aa8f772a46c35ecdcb7119f38772ac2ec952a941",
                 "shasum": ""
             },
             "require": {
@@ -3161,7 +3161,7 @@
                 "phpstorm",
                 "sublime"
             ],
-            "time": "2016-01-21 14:55:37"
+            "time": "2016-01-22 13:33:15"
         },
         {
             "name": "doctrine/instantiator",

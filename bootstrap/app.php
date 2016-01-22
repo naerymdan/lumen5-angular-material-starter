@@ -85,7 +85,7 @@ $app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
 
 if (env('APP_DEBUG')) {
 //    $app->register(Barryvdh\Debugbar\LumenServiceProvider::class);
-//    $app->register(Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
+    $app->register(Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
     $app->register(LaravelAngular\Generators\LaravelServiceProvider::class);
 }
 
