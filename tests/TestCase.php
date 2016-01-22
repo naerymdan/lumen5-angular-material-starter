@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Laravel\Lumen\Testing\DatabaseTransactions;
 
-class TestCase extends Illuminate\Foundation\Testing\TestCase
+class TestCase extends Laravel\Lumen\Testing\TestCase
 {
     use DatabaseTransactions;
     /**
